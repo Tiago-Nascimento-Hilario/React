@@ -1,0 +1,18 @@
+.main-container{
+    background-image: url('../../public/assets/imgbiblia.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:79vh;
+}
+@media screen and (max-width:768px) {
+    .main-container{
+        height: 85vh;
+        background-position: center;
+        background-size: cover;
+    }
+}

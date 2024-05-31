@@ -1,0 +1,18 @@
+.header-container{
+    background-color: #121212;
+    padding: 2rem;
+    text-align: center;
+}
+.paragrafo-container{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+
+@media screen and (max-width:768px) {
+    .paragrafo-container{
+        font-size:18px;
+        line-height: 26px;
+    }
+}
